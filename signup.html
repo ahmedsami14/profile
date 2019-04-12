@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Elmawakes</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+
+    <body>
+    <div class="main">
+    <div class="main-nav">
+
+
+        <div class="tabs">
+            <h3>ELMAWAKES</h3>
+            <div class="butt">
+                <button onclick="showcont(0,'#FFFFFF')">Sign Up</button>
+                <button onclick="showcont(1,'#FFFFFF')">Sign In</button>
+            </div>
+
+            <div class="container">
+            <form action="/action_page.php" style="border:1px solid #ccc">
+                <div class="container_form">
+                    <br>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Enter your name" name="nam" required>
+
+                    <label for="email"><b>E-mail</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                    <labe2>
+                        <input type="radio"  name="male" style="margin-bottom:15px"> Male
+                    </labe2>
+                    <labe2>
+                        <input type="radio"  name="male" style="margin-bottom:15px"> Female
+                    </labe2>
+
+                    <div class="clearfix">
+                        <button type="submit" class="signupbtn" >Sign Up</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+            <div class="container">
+                <form action="/action_page.php" style="border:1px solid #ccc">
+                    <div class="container_form">
+                        <br>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <div class="clearfix">
+                            <button type="submit" class="signupbtn">Sign In</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    </div>
+<script src="Js/jstask.js"></script>
+    </body>
+</html>
+
+

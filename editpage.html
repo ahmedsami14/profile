@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elmawakes Edit</title>
+    <link rel="stylesheet" href="css/styleedit.css" type="text/css">
+</head>
+<body>
+    <header class="head">
+        <h3>ELMAWAKES</h3>
+        <a class="link" id="rie" href="prof.html"> My Profile </a>
+        <a class="link" id="lef" href="#"> Edit Profile</a>
+        <img src="img/avatar.jpg" class="avatar">
+        <button class="ico" onclick="myFunction()">&#9776;</button>
+    </header>
+    <nav id="myLinks">
+        <a class="menu" href="prof.html"> My Profile </a><br>
+        <a class="menu" id="ed2" href="#"> Edit Profile</a>
+    </nav>
+    <div class="contaner">
+        <div class="container">
+            <form action="/action_page.php" style="border:1px solid #ccc">
+                <div class="container_form">
+                    <br>
+                    <hr>
+                    <label for="editname"><b>change your Name : </b></label>
+                    <input type="text" name="nam" >
+
+                    <label for="editnickname"><b>change your nickname : </b></label>
+                    <input type="text" name="nicknam" >
+
+                    <label for="email"><b>E-mail : </b></label>
+                    <input type="text"  name="email" ><br>
+
+                    <label for="photo"><b>Photo : </b></label>
+                    <input type="file"  name="photo" ><br><br>
+
+                    <label for="psw"><b>Password : </b></label>
+                    <input type="password"  name="psw" >
+
+                    <label for="phon"><b>Phone : </b></label><br>
+                    <input type="text"  name="phon" ><br>
+
+                    <label for="address"><b>Address : </b></label>
+                    <input type="text" name="addre" >
+
+                    <label for="Birthday"><b>Birthday : </b></label>
+                    <input type="text" name="birth" >
+
+                    <label for="Gender"><b>Gender : </b></label>
+                    <input type="text" name="gender" >
+
+                    <div class="clearfix">
+                        <button type="submit" class="signupbtn" >Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Js/jsicon.js"></script>
+</body>
+</html>
